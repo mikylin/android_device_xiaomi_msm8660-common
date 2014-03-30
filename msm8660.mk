@@ -45,10 +45,6 @@ PRODUCT_PACKAGES += \
     libaudio-resampler \
     libaudioutils
 
-# GPS
-PRODUCT_COPY_FILES += \
-    device/common/gps/gps.conf_US_SUPL:system/etc/gps.conf
-
 # Graphics
 PRODUCT_PACKAGES += \
     copybit.msm8660 \
